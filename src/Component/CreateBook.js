@@ -5,17 +5,7 @@ import axios from 'axios';
 
 class CreateBook extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-          title: '',
-          isbn:'',
-          author:'',
-          description:'',
-          published_date:'',
-          publisher:''
-        };
-      }
+    
 
       onChange = e => {
         this.setState({ [e.target.name]: e.target.value });
