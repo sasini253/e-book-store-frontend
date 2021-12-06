@@ -3,18 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import '../App.css';
 
-class UpdateBookInfo extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: '',
-      isbn: '',
-      author: '',
-      description: '',
-      published_date: '',
-      publisher: ''
-    };
-  }
+
 
   componentDidMount() {
     // console.log("Print id: " + this.props.match.params.id);
