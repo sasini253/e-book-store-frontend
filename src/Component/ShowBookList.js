@@ -4,13 +4,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import BookCard from './BookCard';
 
-class ShowBookList extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      books: []
-    };
-  }
+
 
   componentDidMount() {
     axios
